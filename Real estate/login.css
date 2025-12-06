@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #4CAF50, #45a049);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  background: white;
+  padding: 40px;
+  width: 320px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.login-box input {
+  padding: 12px;
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #bbb;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #4CAF50;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+button:hover {
+  background: #45a049;
+}
